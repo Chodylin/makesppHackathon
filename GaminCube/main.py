@@ -16,7 +16,7 @@ now = get_hour()
 day = get_today()
 phone = "3232715672"
 
-send_messages(phone, "Hello, This is Cody Lin's Bot")
+send_messages(phone, "Hello, This is TheGamingCube's Bot")
 send_messages(phone, "This will be a bot that notifies you when you have class!")
 
 for i in range(1440):
@@ -67,6 +67,11 @@ for i in range(1440):
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=4")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=5")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=7")
-    if day == "Saturday":
-        if now == "16:44":
-            send_messages(phone,"Shawn is gay")
+    if day == "Friday":
+        if now == "15:00":
+            send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=1")
+            send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=2")
+            send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=3")
+            send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=4")
+            send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=5")
+            send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=7")
