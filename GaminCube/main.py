@@ -14,12 +14,12 @@ def get_hour():
 
 now = get_hour()
 day = get_today()
-phone = "3232715672"
+phone = "8185578599"
 
 send_messages(phone, "Hello, This is TheGamingCube's Bot")
 send_messages(phone, "This will be a bot that notifies you when you have class!")
 
-for i in range(1440):
+while True:
     time.sleep(60)
     now = get_hour()
     day = get_today()
@@ -67,7 +67,16 @@ for i in range(1440):
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=4")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=5")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=7")
-    if day == "Friday":
+    
+    elif day == "Friday":
+        if now == "8:55":
+            send_messages(phone, "If you would like to attend office hours find the class and time on here")
+            send_messages(phone, "https://docs.google.com/document/d/1zWlMsYWrB7KzbIUgNECZ-hWzDCvJBQuUCTP6wPg1fKU/edit")
+            send_messages(phone, "AP Bio - https://us02web.zoom.us/j/96343587368?pwd=WGpTTXFNSDRLcVVkSTN4bzRZQ1FmZz09")
+            send_messages(phone, "AP Calc BC - https://zoom.us/j/95904304937?pwd=dGEwUnVrU1FObFZiUzBKV0lENTd1dz09")
+            send_messages(phone, "Digital Photo does not have friday office hours")
+            send_messages(phone, "AP Gov - https://us02web.zoom.us/j/84029102432?pwd=WGE5TE9jRndjRENQMWRQTndLYWJXUT09")
+            send_messages(phone, "ERWC - https://us02web.zoom.us/j/82383516265?pwd=OFE4Z0ljZnltZDR1NkVuWGxlMWlUdz09")
         if now == "15:00":
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=1")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=2")
@@ -75,3 +84,14 @@ for i in range(1440):
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=4")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=5")
             send_messages(phone,"https://docs.google.com/forms/d/e/1FAIpQLScs81tH_SGnpBdnfYlYtWQqSzB-zYz15Azon99WuRO_kKyk7Q/viewform?entry.1828733646=Cody&entry.761704581=Lin&entry.1242183593=7")
+
+    elif day == "Saturday":
+        if now == "12:25":
+            send_messages(phone, "You Have Class in 5 Minutes, get ready to join")
+        elif now == "12:29":
+            send_messages(phone, "One Minute Till CS 130 - Introduction to Algorithms (GCC)")
+            send_messages(phone, "https://cccconfer.zoom.us/j/93266916651?pwd=enN3em1xMzRjbTlFRWpXMEN1aVRnZz09")
+    
+    else:
+        if now == "12:00":
+            send_messages(phone, "No classes today but make sure to get your work done and prepare for any upcoming tests.")
